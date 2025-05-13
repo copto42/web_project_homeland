@@ -1,0 +1,59 @@
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.content__section {
+  max-width: 830px;
+}
+
+.content__title {
+  width: 100%;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.content__quote {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+}
+.content__quote-author {
+  text-align: right;
+  font-size: 24px;
+  line-height: 34px;
+}
+.content__description {
+  font-weight: 400;
+  line-height: 1.63;
+}
+@media screen and (max-width: 768px) {
+  .content {
+    max-width: 720px;
+    margin: auto;
+  }
+
+  .content__title {
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 49px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content {
+    max-width: 288px;
+    margin: auto;
+  }
+
+  .content__title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .content__quote {
+    line-height: 30px;
+  }
+}
